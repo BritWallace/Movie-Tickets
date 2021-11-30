@@ -1,0 +1,11 @@
+body {
+  color:rgb(100, 8, 16)
+}
+.container {
+  border: solid black 2px;
+  border-radius: 25px;
+  padding: 50px;
+  border-width: thick;
+  height: 300px;
+  width: 300px;
+}
