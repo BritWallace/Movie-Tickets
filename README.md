@@ -2,7 +2,11 @@ Movie Ticket
 
 # _Movie Ticket Epicodus Project_
 
-#### By _**Brit Wallace and Branden Clauson_**_
+#### By _**Brit Wallace and Branden Clauson_
+
+* Test 5: Price will depend on what time movie starts.
+* Code: ticket.price()
+* Expected Output: {movie, time, type, popcorn, ticketPrice: 2pm, **_
 
 #### An Epicodus student project. 
 
@@ -41,6 +45,10 @@ This is an Epicodus student project.
 * Test 4: ticket price prototype should now add 10, 25, or 15 depending on the type parameter
 * Code: ticket.price()
 * Expected Output: ticket {movie, time, type, popcorn, ticketPrice: 20 or 0 + 10, 25, or 15}
+
+* Test 5: Price will depend on what time movie starts.
+* Code: ticket.price()
+* Expected Output: {movie, time, type, popcorn, ticketPrice: 2pm, 8pm, and 9;20PM price will be discounted to 10 dollars for all at the 2pm showing.   
 
 
 

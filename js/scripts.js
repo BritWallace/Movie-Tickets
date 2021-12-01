@@ -5,7 +5,7 @@ function ticket(movie, time, type, popcorn) {
   this.time = time;
   this.type = type;
   this.popcorn = popcorn;
-}
+} 
 
 ticket.prototype.price = function() {
   let price;
@@ -21,7 +21,9 @@ ticket.prototype.price = function() {
   } else if (this.type === "Senior discount") {
     price += 15;
   }
-  
+ if (this.time ===  "2:00pm") {
+    price -= 10;
+}
 
   this.ticketPrice = price;
 }
