@@ -6,40 +6,52 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Movie Tickets</title>
+    <!-- <img src="images/cat.jpeg" alt=""> -->
   <body>
-    <div>
+    <div> 
+      <h1>Welcome to Movie Madness.  Get your tickets here!</h1>
+    <div class="container">
       <form id="formOne">
         <div class="form-group">
-          <label for="zodiac">What is your zodiac sign?</label>
+          <label for="popcorn">Who wants popcorn with your ticket?</label>
           <select class="form-control" id="button">
+            <option>Yes</option>
+            <option>No</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="crystals">Movie times</label>
-          <select class="form-control" id="crystals">
+          <label for="time">Movie times</label>
+          <select class="form-control" id="time">
             <option>5:45pm</option>
             <option>8:00pm</option>
             <option>9:30pm</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="eye">What ticket would you like to purchase?</label>
-          <select class="form-control" id="eye">
+          <label for="tickets">What ticket would you like to purchase?</label>
+          <select class="form-control" id="tickets">
             <option>under 13</option>
             <option>Adult</option>
             <option>Senior discount</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="change">Movies playing in your area today are below.</label>
-          <select class="form-control" id="change">
+          <label for="movie">Movies playing in your area today are below.</label>
+          <select class="form-control" id="movie">
             <option>Code Wars</option>
-            <option>Pisces</option>
+            <option>Get Out Of Town</option>
             <option>Space Race</option>
-            
-          </select>
+            </select>
+            <div>
+              <button type="form-submit-button" class='btn'>Click here for price.</button>
+              </form>
+          </div>
+        </div>  
+        <div id="show">
+          <h1>Enjoy your movie!</h1>
+          <div class="clicked">
           </select>
         </div>
-
+    </div>   
   </body>
   </html>

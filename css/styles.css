@@ -1,11 +1,38 @@
 body {
-  color:rgb(100, 8, 16)
+  color:rgb(158, 186, 20);
+  background-color: black;
 }
-.container {
+.form-group{
   border: solid black 2px;
   border-radius: 25px;
   padding: 50px;
   border-width: thick;
   height: 300px;
   width: 300px;
+  background-color: rgb(89, 56, 120)
 }
+h1 {
+  text-align: center;
+  text-transform: uppercase
+}
+
+/* The element to apply the animation to */
+@keyframes example {
+  from { background-color:chocolate}
+  to { background-color: yellow;}
+}
+div {
+  width: 100px; 
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+  img {
+    float: left;
+    width: 5px;
+    border-radius: 5px;
+    height: 5px;
+  }
+  
+
