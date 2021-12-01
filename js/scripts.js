@@ -23,10 +23,48 @@ ticket.prototype.price = function() {
   }
  if (this.time ===  "2:00pm") {
     price -= 10;
-}
+  }
 
+  if (this.movie === "Code Wars") {
+    price += 5;
+  }
   this.ticketPrice = price;
 }
+
+
+
+// UI Logic 
+
+$(document).ready(function(){
+  $("form#formOne").submit(function(event){
+    event.preventDefault();
+    const movie = $("select#movie").val();
+    const time = $("select#time").val();
+    const type = $("select#tickets").val();
+    const popcorn = $("select#popcorn").val();
+    $("select#movie").val("")
+    $("select#time").val("")
+    $("select#tickets").val("")
+    $("select#popcorn").val("")
+    
+    var newTicket = new ticket(movie, time, type, popcorn);
+    newTicket.price();
+    console.log(newTicket);
+
+
+  });
+});
+
+// $(document).ready(function(){
+//   $("#conversion-form").submit(function(event){
+//     event.preventDefault();
+//     const binaryNumber = $("input:radio[name=unit]:checked").val();
+//     const inputNumber = $("#binary-input").val();
+//     $("#result").text(convert(inputNumber, binaryNumber));
+//     $("#result").show();
+//   });
+// });
+
 
 
 

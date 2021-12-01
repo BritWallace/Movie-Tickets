@@ -46,9 +46,17 @@ This is an Epicodus student project.
 * Code: ticket.price()
 * Expected Output: ticket {movie, time, type, popcorn, ticketPrice: 20 or 0 + 10, 25, or 15}
 
+<br>
+
 * Test 5: Price will depend on what time movie starts.
 * Code: ticket.price()
 * Expected Output: {movie, time, type, popcorn, ticketPrice: 2pm, 8pm, and 9;20PM price will be discounted to 10 dollars for all at the 2pm showing.   
+
+<br>
+
+* Test 6: Price will depend on what movie is chosen
+* Code: ticket.price()
+* Expected Output: {movie, time, type, popcorn, ticketPrice}
 
 
 
