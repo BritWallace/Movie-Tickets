@@ -35,6 +35,12 @@ ticket.prototype.price = function() {
 
 // UI Logic 
 
+function showPrice(ticket) {
+  $(".ticketPricing").html(ticket.ticketPrice);
+}
+
+
+
 $(document).ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
@@ -49,24 +55,11 @@ $(document).ready(function(){
     
     var newTicket = new ticket(movie, time, type, popcorn);
     newTicket.price();
+    showPrice(newTicket);
     console.log(newTicket);
+
+
 
 
   });
 });
-
-// $(document).ready(function(){
-//   $("#conversion-form").submit(function(event){
-//     event.preventDefault();
-//     const binaryNumber = $("input:radio[name=unit]:checked").val();
-//     const inputNumber = $("#binary-input").val();
-//     $("#result").text(convert(inputNumber, binaryNumber));
-//     $("#result").show();
-//   });
-// });
-
-
-
-
-
-

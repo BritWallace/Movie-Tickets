@@ -74,7 +74,7 @@ This is an Epicodus student project.
 MIT
 
 
-Feel free to reach out to me with any question, comments, or concerns. Email us @britwallace888@gmail.com or clauson.branden@gmail.com.
+Feel free to reach out with any questions, comments, or concerns. Email us at britwallace888@gmail.com or at clauson.branden@gmail.com.
 
 
-Copyright (c) _November-18-2021_ _Brit Wallace and Branden Clauson_
+Copyright (c) _November-29-2021_ _Brit Wallace and Branden Clauson_
