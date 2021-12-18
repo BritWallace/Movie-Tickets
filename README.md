@@ -34,6 +34,18 @@ This is an Epicodus student project.
 * Code: ticket.price()
 * Expected Output: ticket {movie, time, type, popcorn, ticketPrice}
 
+Tiff's Ex *******
+* Describe: Function ticket(movie, time, type, popcorn)
+* Code: new ticket("Star Wars", "2:00PM", "Adult", "yes")
+* Test 1: ticket object should now contain the inputted values
+* Expected Output: ticket {"Star Wars", "2:00PM", "Adult", "yes"}
+
+<br>
+
+* Test 2: ticket object should now contain a price parameter
+* Code: ticket.price()
+* Expected Output: ticket {"Star Wars", "2:00PM", "Adult", "yes", 45}
+*************
 <br>
 
 * Test 3: ticket price prototype should now add 20 to price if popcorn is "Yes", add 0 if not

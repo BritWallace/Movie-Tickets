@@ -28,7 +28,7 @@ ticket.prototype.price = function() {
   if (this.movie === "Code Wars") {
     price += 5;
   }
-  this.ticketPrice = price;
+  this.ticketPrice = "$" + price + ".00";
 }
 
 
